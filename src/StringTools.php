@@ -28,7 +28,7 @@ class StringTools
     }
 
     private static function removeCzDiacritics($string) {
-        $conversionTable = json_decode(file_get_contents(__DIR__ . "../resources/czCharConversionMap.json"), TRUE);
+        $conversionTable = json_decode(file_get_contents(__DIR__ . "/../resources/czCharConversionMap.json"), TRUE);
         return strtr($string, $conversionTable);
     }
 }

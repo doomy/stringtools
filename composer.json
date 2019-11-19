@@ -1,6 +1,7 @@
 {
     "name": "doomy/stringtools",
-    "version": "1.0.0",
+    "description": "Simple helper library for various string operations",
+    "license": "MIT",
     "autoload": {
       "classmap": ["src/"]
     },
