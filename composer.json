@@ -1,0 +1,12 @@
+{
+    "name": "doomy/stringtools",
+    "version": "1.0.0",
+    "autoload": {
+      "classmap": ["src/"]
+    },
+    "require": {
+		"php": ">= 7",
+        "ext-json": "*"
+	},
+	"minimum-stability": "stable"
+}
